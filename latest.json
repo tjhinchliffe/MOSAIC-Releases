@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "version": "2.3.0",
+  "tag": "v2.3.0",
+  "releasePageUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/tag/v2.3.0",
+  "installerAssetName": "MOSAIC_Setup_v2.3.0.exe",
+  "sha256": "852d4961864b9d0992cccc213debb13aee151aaa2cf455aa7dcb99ed8ae5e23c",
+  "sizeBytes": 172612347,
+  "publishedAt": "2026-07-16T06:02:15Z",
+  "minimumSupportedVersion": null,
+  "releaseNotes": "MOSAIC application update."
+}
