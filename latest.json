@@ -1,12 +1,27 @@
 {
   "schemaVersion": 1,
-  "version": "2.3.0",
-  "tag": "v2.3.0",
-  "releasePageUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/tag/v2.3.0",
-  "installerAssetName": "MOSAIC_Setup_v2.3.0.exe",
-  "sha256": "852d4961864b9d0992cccc213debb13aee151aaa2cf455aa7dcb99ed8ae5e23c",
-  "sizeBytes": 172612347,
-  "publishedAt": "2026-07-16T06:02:15Z",
+  "version": "2.3.2",
+  "tag": "v2.3.2",
+  "releasePageUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/tag/v2.3.2",
+  "installerAssetName": "MOSAIC_Setup_v2.3.2.exe",
+  "downloadUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/download/v2.3.2/MOSAIC_Setup_v2.3.2.exe",
+  "sha256": "379035b6888bd8bb74c931c75f84ea1043cb3d34f570f5f6b78cb618693ff2c3",
+  "sizeBytes": 172441426,
+  "publishedAt": "2026-07-17T11:15:23Z",
   "minimumSupportedVersion": null,
-  "releaseNotes": "MOSAIC application update."
+  "releaseNotes": "MOSAIC v2.3.2 supports Windows x64 and Apple Silicon macOS 14 or later.",
+  "platforms": {
+    "windows-x86_64": {
+      "assetName": "MOSAIC_Setup_v2.3.2.exe",
+      "downloadUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/download/v2.3.2/MOSAIC_Setup_v2.3.2.exe",
+      "sha256": "379035b6888bd8bb74c931c75f84ea1043cb3d34f570f5f6b78cb618693ff2c3",
+      "sizeBytes": 172441426
+    },
+    "macos-arm64": {
+      "assetName": "MOSAIC_v2.3.2_macOS_arm64.dmg",
+      "downloadUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/download/v2.3.2/MOSAIC_v2.3.2_macOS_arm64.dmg",
+      "sha256": "8c115bca372da0cd4bdee319957925c1edb5b087248d340d9d2b3b5133435db8",
+      "sizeBytes": 203021780
+    }
+  }
 }
