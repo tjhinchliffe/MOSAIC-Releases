@@ -8,5 +8,17 @@
   "sizeBytes": 181739810,
   "publishedAt": "2026-08-06T12:16:37Z",
   "minimumSupportedVersion": null,
-  "releaseNotes": "Improves small-screen access to Custom Group and Teaching Opportunities workflows, updates the Help Guide, and includes performance and regression improvements."
+  "releaseNotes": "Supports Windows x64 and Apple Silicon macOS. Improves small-screen access to Custom Group and Teaching Opportunities workflows, updates the Help Guide, and includes performance and regression improvements.",
+  "platforms": {
+    "windows-x86_64": {
+      "assetName": "MOSAIC_Setup_v2026.0.3.exe",
+      "sha256": "12abe76a7061e0623b73466ee7102bfa8cf2518f32522c3a4b4794b43b17e2af",
+      "sizeBytes": 181739810
+    },
+    "macos-arm64": {
+      "assetName": "MOSAIC_v2026.0.3_macOS_arm64.dmg",
+      "sha256": "339e196e99617040fecead9cc05f46b754f8e16056d03cafad71d409facb1b5b",
+      "sizeBytes": 213108273
+    }
+  }
 }
