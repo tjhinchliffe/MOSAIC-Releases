@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "version": "2026.0.3",
-  "tag": "v2026.0.3",
-  "releasePageUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/tag/v2026.0.3",
-  "installerAssetName": "MOSAIC_Setup_v2026.0.3.exe",
-  "sha256": "12abe76a7061e0623b73466ee7102bfa8cf2518f32522c3a4b4794b43b17e2af",
-  "sizeBytes": 181739810,
-  "publishedAt": "2026-08-06T12:16:37Z",
+  "version": "2026.0.4",
+  "tag": "v2026.0.4",
+  "releasePageUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/tag/v2026.0.4",
+  "installerAssetName": "MOSAIC_Setup_v2026.0.4.exe",
+  "sha256": "336f7b788743c26ef912b190a52b92b6b1c82ce8a74b7b73cb20eb7a483da3e8",
+  "sizeBytes": 181783313,
+  "publishedAt": "2026-08-10T11:23:14Z",
   "minimumSupportedVersion": null,
-  "releaseNotes": "Supports Windows x64 and Apple Silicon macOS. Improves small-screen access to Custom Group and Teaching Opportunities workflows, updates the Help Guide, and includes performance and regression improvements.",
+  "releaseNotes": "## What this update addresses\n\n- Fixes a Windows startup failure on high-resolution displays using 200\u2013250% scaling, including the `Tk_GetPixmap` / `CreateDIBSection` error.\n- Reduces excessive startup memory use by preventing a second Tk splash process from being created.\n- Improves NAPLAN Evidence Explorer load time and peak memory use by avoiding duplicate models and serialised runtime data.\n- Keeps Evidence Explorer windows within the primary monitor's usable area on dual-screen and mixed-scaling Windows configurations.\n- Makes the File and More menus close automatically when the pointer or keyboard focus leaves them.\n\nThis is a core MOSAIC stability and performance update.",
   "platforms": {
     "windows-x86_64": {
-      "assetName": "MOSAIC_Setup_v2026.0.3.exe",
-      "sha256": "12abe76a7061e0623b73466ee7102bfa8cf2518f32522c3a4b4794b43b17e2af",
-      "sizeBytes": 181739810
+      "assetName": "MOSAIC_Setup_v2026.0.4.exe",
+      "sha256": "336f7b788743c26ef912b190a52b92b6b1c82ce8a74b7b73cb20eb7a483da3e8",
+      "sizeBytes": 181783313
     },
     "macos-arm64": {
-      "assetName": "MOSAIC_v2026.0.3_macOS_arm64.dmg",
-      "sha256": "339e196e99617040fecead9cc05f46b754f8e16056d03cafad71d409facb1b5b",
-      "sizeBytes": 213108273
+      "assetName": "MOSAIC_v2026.0.4_macOS_arm64.dmg",
+      "sha256": "34eb9463395ba389e58d160ed118d8b61b243b5d206bcb43f4e9192dd8dd2038",
+      "sizeBytes": 213073802
     }
   }
 }
