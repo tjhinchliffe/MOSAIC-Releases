@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "version": "2026.0.5",
-  "tag": "v2026.0.5",
-  "releasePageUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/tag/v2026.0.5",
-  "installerAssetName": "MOSAIC_Setup_v2026.0.5.exe",
-  "sha256": "1f96ef1fc2aa3b4ec345b53bd7cd7c6da34046a7fb0189d356727a9d00897afb",
-  "sizeBytes": 181729170,
-  "publishedAt": "2026-08-12T01:42:15Z",
+  "version": "2026.0.7",
+  "tag": "v2026.0.7",
+  "releasePageUrl": "https://github.com/tjhinchliffe/MOSAIC-Releases/releases/tag/v2026.0.7",
+  "installerAssetName": "MOSAIC_Setup_v2026.0.7.exe",
+  "sha256": "dcfe38fb4d15c7ace1f67e9268c950b874a8319f0e6a59ab1f2e5b0f642f6675",
+  "sizeBytes": 181814141,
+  "publishedAt": "2026-08-16T02:33:26Z",
   "minimumSupportedVersion": null,
-  "releaseNotes": "## What this update addresses\n\n- Enforces strict dataset isolation so saved or cached NAPLAN student details\n  cannot carry from one school's source file into another school's workflow.\n- Adds an annotated best-effort Cohort report option after one unsuccessful AI\n  correction, while continuing to block privacy and dataset-identity failures.\n- Fixes a Windows startup failure on high-resolution displays using 200\u2013250% scaling, including the `Tk_GetPixmap` / `CreateDIBSection` error.\n- Advances MOSAIC to v2026.0.5 and the bundled NAPLAN Evidence Explorer to v2.1.2.\n\nThis is a security and reliability update and should replace v2026.0.4.",
+  "releaseNotes": "## What this update addresses\n\n- Adds privacy-preserving NAPLAN contribution export and Priority observations\n  to the bundled NAPLAN Evidence Explorer.\n- Publishes NAPLAN Network v1.0.0 as an optional download, separate from the\n  Windows and macOS base applications.\n- Adds network comparison, contextual ICSEA, filter-aware focus areas and\n  personalised Word inquiry reporting.\n- Advances MOSAIC to v2026.0.7 and NAPLAN Evidence Explorer to v2.1.4.\n\nThe base application remains fully functional when NAPLAN Network is not\ninstalled.\n\n- Corrects the macOS Evidence Explorer launch deadlock and preserves responsive Network window activation.",
   "platforms": {
     "windows-x86_64": {
-      "assetName": "MOSAIC_Setup_v2026.0.5.exe",
-      "sha256": "1f96ef1fc2aa3b4ec345b53bd7cd7c6da34046a7fb0189d356727a9d00897afb",
-      "sizeBytes": 181729170
+      "assetName": "MOSAIC_Setup_v2026.0.7.exe",
+      "sha256": "dcfe38fb4d15c7ace1f67e9268c950b874a8319f0e6a59ab1f2e5b0f642f6675",
+      "sizeBytes": 181814141
     },
     "macos-arm64": {
       "assetName": "MOSAIC_macOS_arm64.dmg",
-      "sha256": "c5100bf899a8625496a9629905adac68757a85e8464dfe24faed79ef8ad4c19e",
-      "sizeBytes": 213185628
+      "sha256": "0bdb410b96fa3a0cabf8af1ef1c130d28806387e72e79c03d686d2dc5b46ac45",
+      "sizeBytes": 213180254
     },
     "macos-x86_64": {
       "assetName": "MOSAIC_macOS_x86_64.dmg",
-      "sha256": "2c7fb4c7220435bb9dc04cdc5df3eb2cff8795fb7dbd6f689e949a2d22091549",
-      "sizeBytes": 215373296
+      "sha256": "9baa5fb55933afa57803f6b30e8ce9c2ff28161b21346b781a2d46005bc9ecb0",
+      "sizeBytes": 215422356
     }
   }
 }
